@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MessageBox : MonoBehaviour {
 
-    
+    public Sprite winSprite;
     public Sprite speedSprite;
     public Sprite jumpSprite;
     int frame;
@@ -27,6 +27,8 @@ public class MessageBox : MonoBehaviour {
             }
         }
 
+       
+        
         /*if ( == null)
         {
             transform.position = new Vector3(GetComponent<Transform>().position.x, GetComponent<Transform>().position.y, 0);

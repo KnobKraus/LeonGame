@@ -8,9 +8,16 @@ public class EnemyMovement : MonoBehaviour {
     bool dirRight;
     
     int frame;
+    public int frameMax;
     // Use this for initialization
     void Start () {
             dirRight = true;
+        if (frameMax == 0)
+        {
+            frameMax = 24;
+        }
+            
+        
            }
 	
 	// Update is called once per frame
@@ -18,19 +25,19 @@ public class EnemyMovement : MonoBehaviour {
         frame = frame + 1;
         
        
-		if (dirRight == true && frame<25)
+		if (dirRight == true && frame<frameMax+1)
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(ms, 0);
-            if (frame == 24)
+            if (frame == frameMax)
             {
                 dirRight = false;
                 frame = 0;
             }
         }
-        if(dirRight == false && frame<25)
+        if(dirRight == false && frame<frameMax+1)
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(-ms, 0);
-            if (frame == 24)
+            if (frame == frameMax)
             {
                 dirRight = true;
                 frame = 0;
