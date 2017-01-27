@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour {
-    Vector2 diretion;
+
     public int movespeedBullet;
     private int frame;
     public bool pierced = false;
