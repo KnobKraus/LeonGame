@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/AlternateControlsTest.unity
+=======
+- path: Assets/LeonsRoom.unity
+>>>>>>> 596e2d1a4d29a9e14b484a650d2d0237987249f9
   isLoaded: 1
   isActive: 1
