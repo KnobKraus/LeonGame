@@ -75,12 +75,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AlternateMovement.cs" />
+    <Compile Include="Assets\Scripts\AlternateMovement.cs" />
+    <Compile Include="Assets\Scripts\Attributes.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\Despawn.cs" />
     <Compile Include="Assets\Scripts\EnemyDupliate.cs" />
+    <Compile Include="Assets\Scripts\EnemyMelee.cs" />
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\EnemyMovementAlt.cs" />
     <Compile Include="Assets\Scripts\EnemyRoaster.cs" />
     <Compile Include="Assets\Scripts\FolloweControl.cs" />
     <Compile Include="Assets\Scripts\JumpBoost.cs" />
