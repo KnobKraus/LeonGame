@@ -1,15 +1,14 @@
 fileFormatVersion: 2
-guid: 7c23da799f0e4484da99f398a273f768
-timeCreated: 1486430498
+guid: 824541a5f7ceb134d959479fa46891e5
+timeCreated: 1486429529
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Enemy_m1_sprite
-    21300002: Enemy_m1_sprite1
-    21300004: Enemy_m1_sprite3
-    21300006: zombie7_0_0
-    21300008: zombie7_0_1
-    21300010: zombie7_0_2
+    21300000: Bite0
+    21300002: Bite1
+    21300004: bite2
+    21300006: Bite3
+    21300008: Bite4
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -84,78 +83,65 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enemy_m1_sprite
+      name: Bite0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 202
-        width: 44
-        height: 44
+        x: 525
+        y: 198
+        width: 105
+        height: 158
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Enemy_m1_sprite1
+      name: Bite1
       rect:
         serializedVersion: 2
-        x: 73
-        y: 202
-        width: 44
-        height: 44
+        x: 672
+        y: 205
+        width: 105
+        height: 136
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Enemy_m1_sprite3
+      name: bite2
       rect:
         serializedVersion: 2
-        x: 137
-        y: 202
-        width: 44
-        height: 44
+        x: 817
+        y: 216
+        width: 105
+        height: 111
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: zombie7_0_0
+      name: Bite3
       rect:
         serializedVersion: 2
-        x: 18
-        y: 138
-        width: 29
-        height: 44
+        x: 0
+        y: 46
+        width: 105
+        height: 78
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: zombie7_0_1
+      name: Bite4
       rect:
         serializedVersion: 2
-        x: 9
-        y: 74
-        width: 44
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: zombie7_0_2
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 10
-        width: 30
-        height: 44
+        x: 126
+        y: 47
+        width: 105
+        height: 67
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
