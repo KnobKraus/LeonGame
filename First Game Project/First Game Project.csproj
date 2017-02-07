@@ -75,13 +75,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Compile Include="Assets\Scripts\AlternateEnemyBullet.cs" />
     <Compile Include="Assets\Scripts\AlternateEnemyMovement.cs" />
     <Compile Include="Assets\Scripts\AlternateMovement.cs" />
-=======
-    <Compile Include="Assets\AlternateMovement.cs" />
->>>>>>> 596e2d1a4d29a9e14b484a650d2d0237987249f9
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\Despawn.cs" />
