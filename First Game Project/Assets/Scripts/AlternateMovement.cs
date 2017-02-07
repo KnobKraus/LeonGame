@@ -3,32 +3,31 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class AlternateMovement : MonoBehaviour {
-    private Attributes attribute;
+    public float moveSpeed;
 	// Use this for initialization
 	void Start () {
-        attribute = GetComponent<Attributes>();
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
         if (Input.GetKey(KeyCode.A))
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(-attribute.moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+            GetComponent<Rigidbody2D>().velocity = new Vector2(-moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
         }
 
         if (Input.GetKey(KeyCode.D))
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(attribute.moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+            GetComponent<Rigidbody2D>().velocity = new Vector2(moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
         }
         if (Input.GetKey(KeyCode.W))
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x,attribute.moveSpeed);
+            GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x,moveSpeed);
         }
 
         if (Input.GetKey(KeyCode.S))
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x,-attribute.moveSpeed);
+            GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x,-moveSpeed);
         }
 
         if (!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))

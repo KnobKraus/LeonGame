@@ -75,16 +75,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Assets\AnimationManager.cs" />
+=======
+    <Compile Include="Assets\Scripts\AlternateEnemyBullet.cs" />
+    <Compile Include="Assets\Scripts\AlternateEnemyMovement.cs" />
+>>>>>>> c7477e8a6cc2c1aba6ad58bf6d10c1a54ef6ef83
     <Compile Include="Assets\Scripts\AlternateMovement.cs" />
-    <Compile Include="Assets\Scripts\Attributes.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\Despawn.cs" />
     <Compile Include="Assets\Scripts\EnemyDupliate.cs" />
-    <Compile Include="Assets\Scripts\EnemyMelee.cs" />
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
-    <Compile Include="Assets\Scripts\EnemyMovementAlt.cs" />
+    <Compile Include="Assets\Scripts\EnemyRangedAttack.cs" />
     <Compile Include="Assets\Scripts\EnemyRoaster.cs" />
     <Compile Include="Assets\Scripts\FolloweControl.cs" />
     <Compile Include="Assets\Scripts\JumpBoost.cs" />
@@ -94,6 +97,7 @@
     <Compile Include="Assets\Scripts\MessageBox.cs" />
     <Compile Include="Assets\Scripts\PiercingShotScript.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\PlayerShooting.cs" />
     <Compile Include="Assets\Scripts\SearchRocket.cs" />
     <Compile Include="Assets\Scripts\ShootSpeedBonus.cs" />
     <Compile Include="Assets\Scripts\Spawn.cs" />
